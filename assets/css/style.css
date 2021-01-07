@@ -34,6 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Oswald", sans-serif;
+  flex-direction: column;
   @media (min-width: 1124px) flex-direction: row;
 }
 
