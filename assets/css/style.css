@@ -28,19 +28,22 @@ body {
 }
 
 #contactos {
-  height: 200px;
+  height: 210px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Oswald", sans-serif;
-  flex-direction: column;
-  @media (min-width: 1124px) flex-direction: row;
+}
+
+@media (min-width: 1024px) {
+  #contactos {
+    flex-direction: flex;
+  }
 }
 
 .redes {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
